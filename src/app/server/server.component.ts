@@ -11,4 +11,8 @@ export class ServerComponent{
     getServerStatus(){
         return this.serverStatus;
     }
+
+    getServerDetail(){
+        return 'Server with ID '+this.serverId+' is '+this.serverStatus+' .';
+    }
 }
